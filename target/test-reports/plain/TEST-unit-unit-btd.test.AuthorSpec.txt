@@ -1,5 +1,5 @@
 Testsuite: btd.test.AuthorSpec
-Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.145 sec
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 3.645 sec
 ------------- Standard Output ---------------
 --Output from test anything, really--
 ------------- ---------------- ---------------
@@ -7,4 +7,4 @@ Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.145 sec
 --Output from test anything, really--
 ------------- ---------------- ---------------
 
-Testcase: test anything, really took 0.139 sec
+Testcase: test anything, really took 3.605 sec

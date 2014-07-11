@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="0" hostname="KregC.site" id="0" name="AuthorSpec" package="btd.test" tests="1" time="0.145" timestamp="2014-07-11T03:53:16">
+  <testsuite errors="0" failures="0" hostname="KregC.site" id="0" name="AuthorSpec" package="btd.test" tests="1" time="3.645" timestamp="2014-07-11T04:01:11">
       <properties />
 
-      <testcase classname="btd.test.AuthorSpec" name="test anything, really" time="0.139" />
+      <testcase classname="btd.test.AuthorSpec" name="test anything, really" time="3.605" />
 
       <system-out><![CDATA[--Output from test anything, really--
 ]]></system-out>
