@@ -1,5 +1,5 @@
 Testsuite: btd.test.AuthorSpec
-Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 3.645 sec
+Tests run: 1, Failures: 0, Errors: 1, Time elapsed: 1.78 sec
 ------------- Standard Output ---------------
 --Output from test anything, really--
 ------------- ---------------- ---------------
@@ -7,4 +7,30 @@ Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 3.645 sec
 --Output from test anything, really--
 ------------- ---------------- ---------------
 
-Testcase: test anything, really took 3.605 sec
+Testcase: test anything, really took 1.761 sec
+	Caused an ERROR
+No qualifying bean of type [org.grails.datastore.mapping.simple.SimpleMapDatastore] is defined
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.grails.datastore.mapping.simple.SimpleMapDatastore] is defined
+	at grails.test.mixin.domain.DomainClassUnitTestMixin.getSimpleDatastore(DomainClassUnitTestMixin.groovy:71)
+	at grails.test.mixin.domain.DomainClassUnitTestMixin.mockDomains(DomainClassUnitTestMixin.groovy:81)
+	at grails.test.mixin.domain.DomainClassUnitTestMixin.mockDomain(DomainClassUnitTestMixin.groovy:114)
+	at grails.test.mixin.domain.DomainClassUnitTestMixin.mockDomain(DomainClassUnitTestMixin.groovy:113)
+	at org.spockframework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:138)
+	at org.spockframework.runtime.extension.builtin.JUnitFixtureMethodsExtension$FixtureType$FixtureMethodInterceptor.intercept(JUnitFixtureMethodsExtension.java:145)
+	at org.spockframework.runtime.extension.MethodInvocation.proceed(MethodInvocation.java:84)
+	at org.spockframework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:138)
+	at org.spockframework.runtime.extension.MethodInvocation.invokeTargetMethod(MethodInvocation.java:91)
+	at org.spockframework.runtime.extension.MethodInvocation.proceed(MethodInvocation.java:85)
+	at org.spockframework.runtime.extension.builtin.AbstractRuleInterceptor$1.evaluate(AbstractRuleInterceptor.java:37)
+	at grails.test.runtime.TestRuntimeJunitAdapter$1$2.evaluate(TestRuntimeJunitAdapter.groovy:48)
+	at org.spockframework.runtime.extension.builtin.TestRuleInterceptor.intercept(TestRuleInterceptor.java:38)
+	at org.spockframework.runtime.extension.MethodInvocation.proceed(MethodInvocation.java:84)
+	at org.spockframework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:138)
+	at org.spockframework.util.ReflectionUtil.invokeMethod(ReflectionUtil.java:138)
+	at org.spockframework.runtime.extension.MethodInvocation.invokeTargetMethod(MethodInvocation.java:91)
+	at org.spockframework.runtime.extension.MethodInvocation.proceed(MethodInvocation.java:85)
+	at org.spockframework.runtime.extension.builtin.AbstractRuleInterceptor$1.evaluate(AbstractRuleInterceptor.java:37)
+	at grails.test.runtime.TestRuntimeJunitAdapter$3$4.evaluate(TestRuntimeJunitAdapter.groovy:74)
+	at org.spockframework.runtime.extension.builtin.ClassRuleInterceptor.intercept(ClassRuleInterceptor.java:38)
+	at org.spockframework.runtime.extension.MethodInvocation.proceed(MethodInvocation.java:84)
+
